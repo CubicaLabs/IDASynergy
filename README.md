@@ -21,7 +21,7 @@ Installation
 ------------
 To install **IDASynergy**, copy the contents of the source tree to:
 
-	%APPDATA%\Roaming\Hex-Rays\IDA Pro\
+	%APPDATA%\Hex-Rays\IDA Pro\
 
 **WARNING: If you already have an idapythonrc.py under that directory, just add the contents of idapythonrc.py to it.**
 
