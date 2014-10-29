@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="img">
+    <file>test.bmp</file>
+    <file>30.gif</file>
+  </qresource>
+</RCC>
