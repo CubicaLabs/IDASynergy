@@ -58,7 +58,7 @@ If your version control software is **not** SVN, you will need to manually manag
 
 - Use the "*Load from local repository*" option whenever you want to import changes to IDA
 
-Known Issues
+Known Security Issues
 -----------
 
 There are two known *security* issues in this software, that we're going to fix in the releases to come:
