@@ -43,6 +43,8 @@ Initial Checkout
 
 **SVN users**:
 
+- If this is the **first commit** of the project, please use the "*IDASynergy SVN Commit*" option in the File menu
+
 - If you need to **checkout** the project, please use the "*IDASynergy SVN Checkout*" option in the File menu
 
 - If the project is **already checked-out** in your local copy, use the "*IDASynergy Load from local repository*" option instead
