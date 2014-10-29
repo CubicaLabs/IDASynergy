@@ -1,4 +1,4 @@
-IDASynergy - (c) 2014 Cubica Labs
+IDASynergy by Cubica Labs
 ==============
 
 Prerequisites
