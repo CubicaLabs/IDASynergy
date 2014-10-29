@@ -6,14 +6,14 @@ Prerequisites
 
 **PySide for IDA Pro, specific for your IDAPython version.**
 
-- http://hex-rays.com/idapro/ida/windows\_pyside\_python26\_package.zip<br />
-- http://hex-rays.com/idapro/ida/windows\_pyside\_python27\_package.zip
+- http://hex-rays.com/idapro/ida/windows_pyside_python26_package.zip<br />
+- http://hex-rays.com/idapro/ida/windows_pyside_python27_package.zip
 
 **Pysvn**
 
 - Windows and OSX: Can be downloaded as a binary package from:
 
-	- http://pysvn.tigris.org/project\_downloads.html
+	- http://pysvn.tigris.org/project_downloads.html
 
 - Linux: It's available by default in the Ubuntu repositories.
 
