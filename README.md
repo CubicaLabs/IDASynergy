@@ -57,3 +57,15 @@ Initial Checkout
 If your version control software is **not** SVN, you will need to manually manage your repository
 
 - Use the "*Load from local repository*" option whenever you want to import changes to IDA
+
+Known Issues
+-----------
+
+There are two known *security* issues in this software, that we're going to fix in the releases to come:
+
+- If the SVN server's security certificate is not signed, we accept it without user verification.
+
+  - This allows for MITM attacks
+- We store the password in plain-text on the config file.
+
+  - If your machine gets owned, the password can be retrieved with no effort.
