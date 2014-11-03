@@ -562,7 +562,6 @@ def create_menu():
 
         print "[+] IDASynergy loaded"
 
-start_time = None
 already_loaded = False
 
 def wait_ready():
@@ -574,7 +573,9 @@ def wait_ready():
     # Couldn't find a better way: IDA Hooks do not provide any event to
     # know when this happens. To be improved.
     prev_status = idc.SetStatus(IDA_STATUS_READY)
-    if prev_status == IDA_STATUS_READY and (menu is not None) and (time.time() - start_time) > 5:
+    idc.SetStatus(prev_status)
+
+    if prev_status == IDA_STATUS_READY and (menu is not None):
         if not already_loaded:
             already_loaded = True
             menu.insert_hooks()
@@ -583,6 +584,4 @@ def wait_ready():
     return 1000
 
 def start_plugin():
-    global start_time
-    start_time = time.time()
     idaapi.register_timer(1000, wait_ready)
