@@ -479,7 +479,7 @@ class IDASynergyIO:
 
     @importer(7)
     def import_function_comments(self, comment_list):
-        for ea, comment, isRep in comment_list:
+        for ea, (comment, isRep) in comment_list:
             if isRep == 1:
                 SetFunctionCmt(ea, str(comment), 1)
             elif isRep == 0:
